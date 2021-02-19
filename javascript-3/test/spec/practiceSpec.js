@@ -47,8 +47,8 @@ describe('Unit Assessment 2 - JavaScript 3', function () {
       expect(typeof addItem).toBe('function')
     })
     it('should perform the correct operation', () => {
-      addItem('milk')
-      expect(groceries).toEqual(jasmine.arrayContaining(['milk']))
+      addItem('teststring')
+      expect(groceries).toEqual(jasmine.arrayContaining(['teststring']))
     })
   })
 
@@ -61,7 +61,7 @@ describe('Unit Assessment 2 - JavaScript 3', function () {
     })
     it('should perform the correct operation', () => {
       removeItem(groceries.length - 1)
-      expect(groceries).not.toEqual(jasmine.arrayContaining(['milk']))
+      expect(groceries).not.toEqual(jasmine.arrayContaining(['teststring']))
     })
     it('should use splice', async function() {
       let result = await countFiles(jsFile, '.splice(', 1)
