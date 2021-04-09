@@ -6,7 +6,7 @@ let groceries = ["String Cheese", "Pizza Rolls", "Apples"];
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
-let yourName = "Trevor Martin";
+let yourName = "Trevor James Martin";
 
 //////////////////STEP 3////////////////////
 /*
